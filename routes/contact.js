@@ -13,7 +13,7 @@ router.post('/send', function(req, res, next){
     service: 'Gmail',
     auth:{
       user: "ralawar54@gmail.com",
-      pass: 'password'  ///MUST ADD PASSWORD HERE use .env
+      pass: 'password'  ///MUST ADD PASSWORD HERE use .env to hide password
     }
   });
 
